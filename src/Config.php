@@ -30,7 +30,7 @@ class Config
         $config = [];
 		$config['app_id'] = self::$app_id;
         $config['alipayPublicKey'] = self::$alipay_public_key;
-		$config['rsaPrivateKeyFilePath'] = dirname(__FILE__).'/'.self::$merchant_private_key_path;
+		$config['rsaPrivateKeyFilePath'] = dirname(dirname(__FILE__)).'/'.self::$merchant_private_key_path;
 		$config['notify_url'] = self::$notify_url;
 		$config['return_url'] = self::$return_url;
 		$config['charset'] =  self::$charset;
