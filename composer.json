@@ -1,0 +1,25 @@
+{
+    "name": "risentang/alipay",
+    "description": "alipay for lumen",
+    "keywords": ["alipay,pagePay,wapPay"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "risentang",
+            "email": "magicheart@163.com",
+            "homepage": "http://www.magicheart.win"
+        }
+    ],
+    "require": {
+      "php": ">=5.4",
+      "ext-gd": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Risentang\\Alipay\\": "src/"
+      }
+    },
+    "minimum-stability": "dev"
+
+}
