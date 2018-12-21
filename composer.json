@@ -1,7 +1,7 @@
 {
     "name": "risentang/alipay",
     "description": "alipay for lumen",
-    "keywords": ["alipay,pagePay,wapPay"],
+    "keywords": ["alipay", "pagePay", "wapPay"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,12 @@
     ],
     "require": {
       "php": ">=5.4",
-      "ext-gd": "*"
+      "ext-gd": "*",
+      "illuminate/config": "~5.0",
+      "illuminate/filesystem": "~5.0",
+      "illuminate/support": "~5.0",
+      "illuminate/hashing": "~5.0",
+      "intervention/image": "~2.2"
     },
     "autoload": {
       "psr-4": {
